@@ -20,7 +20,7 @@ aFunction.addEventListener('click', (event) => {
 
 aHome.addEventListener('click', (event) => {
     event.preventDefault()
-    document.location.href = '/main.html'
+    document.location.href = '/index.html'
 })
 aSquareEquation.addEventListener('click', (event) => {
   event.preventDefault()
