@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир математики</title>
+    <link rel="stylesheet" href="./function.css">
+    <link rel="stylesheet" href="../all.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans+Caption" />
+</head>
+<body>
+    <nav>
+        <a class="home"><img src="https://cdn-icons-png.flaticon.com/512/158/158776.png" class="homeIcone"></a>
+        <a class="function">Построение функции</a>
+        <a class="squareEquation">Решение квадратных уравнений</a>
+        <a class="information">Полезный справочник</a>
+    </nav>
+    <div class="content">
+        <h1> Задайте функцию, чтобы увидеть график</h1>
+        <div class="container" >
+            <div class="functionBuilding">
+                <h2>Построение функции</h2>
+            
+            <div class="building">
+                
+                <form>
+                    <button hidden>dummy</button>
+                    <div class="input">
+                        <div class="color">
+                            <div class="color0"></div>
+                        </div>
+                        <p class="p">f(x)= </p>                   
+                        <input type="text" placeholder="Введите функцию" id="0" autocomplete="off">
+                        <button class="del" onclick="del(0, this, event)">X</button>
+                    </div>
+
+                    <div class="input">
+                        <div class="color">
+                            <div class="color1"></div>
+                        </div>
+                        <p class="p">f(x)= </p>               
+                        <input type="text" placeholder="Введите функцию" id="1" autocomplete="off">
+                        <button class="del" onclick="del(1, this, event)">X</button>
+                    </div>
+                    
+                    <div class="input">
+                        <div class="color">
+                            <div class="color2"></div>
+                        </div>
+                        <p class="p">f(x)=</p>
+                        <input type="text" placeholder="Введите функцию" id="2" autocomplete="off">
+                        <button class="del" onclick="del(2, this, event)">X</button>
+                    </div>
+                    
+                    <div class="input">
+                        <div class="color">
+                            <div class="color3"></div>
+                        </div>
+                        <p class="p">f(x)=</p>
+                        
+                        <input type="text" placeholder="Введите функцию" id="3" autocomplete="off">
+                        <button class="del" onclick="del(3, this, event)">X</button>
+                    </div>
+                    <div class="input">
+                        <div class="color">
+                            <div class="color4"></div>
+                        </div>
+                        <p class="p">f(x)=</p>
+                        
+                        <input type="text" placeholder="Введите функцию" id="4" autocomplete="off">
+                        <button class="del" onclick="del(4, this, event)">X</button>
+                    </div>
+                    <div class="scale">
+                        <button onclick="changeScale('+', event)" title="Увеличить масштаб">+</button><button title="Уменьшить масштаб" onclick="changeScale('-', event)">-</button>
+                    </div>
+                </form>
+                <canvas></canvas>
+            </div>
+            </div>
+            <div class="regulations">
+                <h2>Правила ввода функции</h2>
+                <div class="regules">
+                    <h4>Математические операции</h4>
+                    <ul>
+                        <li>Умножение: * Пример(5*x)</li>
+                        <li>Деление: / Пример(5.5/x)</li>
+                        <li>Возведение в степень: ^ Пример(x^3)</li>
+                        <li>Плюс: + Минус: - </li>
+                        <li>Для ввода дробных чисел используется точка. Пример(4.4)</li>                        
+                        <li>Порядок выполениния действий указывается спомщью скобок. Пример((5/x)-(6-x*5))</li>
+                    </ul>
+                    <h4>Также возможен ввод тригонометрических фуннкций</h4>
+                    <ul>
+                        <li>Синус - sin(x)</li>
+                        <li>Косинус - cos(x)</li>
+                        <li>Тангенс - tg(x)</li>
+                        <li>Котангенс - ctg(x)</li>
+                    </ul>
+                    <h4>Константы</h4>
+                    <ul>
+                        <li>Число Пи: pi</li>
+                        <li>Число Эйлера: e</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>До егэ 2022 по математике осталось: <p class="time"></p></p>
+        <div class="line"></div>
+        <p class="me">website made by Ryzhikov Sergei</p>
+    </footer>
+    <script src='../main.js'></script>
+    <script src='./function.js'></script>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+a.information {
+    color: rgba(66, 66, 66, 0.952);
+}
+
+h1 {text-align: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    /* font-family: 'Tenor Sans', sans-serif; */
+}
+div.navigation {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    word-wrap: break-word;
+    width: 25%;
+    font-size: 18pt;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 3px;
+    text-align: left;
+    border: rgb(102, 102, 102) 1px solid;
+    line-height: normal;
+}
+li {
+    list-style-type: none;
+}
+
+div.degree {
+    margin-top: 5%;
+}
+hr {
+    margin-bottom: 3%;
+}
+div.roots img{
+    max-width: 50%;
+}
+
+div.roots {
+    margin-top: 5%;
+}
+
+div.logarithms {
+    margin-top: 5%;
+}
+div.planimetry {
+    margin-top: 5%;
+}
+
+div.functionDerivative {
+    margin-top: 5%;
+}
+div.sterometry {
+    margin-top: 5%;
+}
+
+div.definition {
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+    word-wrap: break-word;
+    border-radius: 5px; 
+    border: rgb(102, 102, 102) 1px solid;
+    font-family: 'Comfortaa', cursive;
+}
+
+.content p {
+    font-size: 16pt;
+}
+
+.content a {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16pt;
+    text-decoration: none;
+    color: rgb(123, 182, 255);
+}
+.content a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./equation.css">
+    <link rel="stylesheet" href="../all.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Квадартаное уравнение</title>
+</head>
+<body>
+    
+    <nav>
+        <a class="home"><img src="https://cdn-icons-png.flaticon.com/512/158/158776.png" class="homeIcone"></a>
+        <a class="function">Построение функции</a>
+        <a class="squareEquation">Решение квадратных уравнений</a>
+        <a class="information">Полезный справочник</a>
+    </nav>
+    <div class="content">
+        <h1>Решение квадратных уравнений онлайн</h1>
+        <div class="rule">
+            <p>Введите значения агрументов. Чтобы использовать дробные числа используете "." или ",". Например(-5,4)</p>
+            <!-- <p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+                $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p> -->
+            <div class="line1"></div>
+        </div>
+        
+
+        <div class="equation">
+            <form>
+            <div class="inputs">
+                <div style="display: block;">               
+                <input type="text" id="0" autocomplete="off" placeholder="a">
+                </div> x 
+                <sup>2</sup> +
+                
+                <div style="display: block;">
+                <input type="text" id="1" autocomplete="off" placeholder="b">
+                </div> x +
+
+                <div style="display: block;">
+                <input type="text" id="2" autocomplete="off" placeholder="c">
+                </div> = 0
+            </div>
+            <button class="solve" type="submit">Показать ответ</button>
+            </form>
+
+        <div class="answer" style="display: none;">
+            <div class="answerEquation"></div>
+            <div class='pAnswer'>
+                <p class="x1"></p>
+                <p class="x2"></p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <p>До егэ 2022 по математике осталось: <p class="time"></p></p>
+        <div class="line"></div>
+        <p class="me">website made by Ryzhikov Sergei</p>
+    </footer>
+    <script src='../main.js'></script>
+    <script src='./equation.js'></script>
+</body>
+</html>

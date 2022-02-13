@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|PT+Sans+Caption&subset=latin,cyrillic);
+
+body {
+    margin: 0;
+    user-select: none; 
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+nav {
+    z-index: 2;
+    background-color: #adb5bd;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.5s; /* Transition effect when sliding down (and up) */
+    color: rgba(0, 0, 0, 0.952);
+    display: flex;
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.3% 0 0 0;
+}
+
+img.homeIcone {
+    margin-left: 30%;
+    width: 30px;
+}
+nav a {
+    cursor: pointer;
+    width: 25%;
+    display: block;
+    text-align: center;
+}
+nav a:hover {
+    transition: 0.3s;
+    color: rgba(66, 66, 66, 0.952);
+}
+
+footer {
+    font-family: arial,x-locale-body,sans-serif;
+    letter-spacing: -.0027777778rem;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 36px 36px;
+    font-size: 1.4em;
+    line-height: 1.5;
+    display: block;
+    margin-top: 12rem;
+    text-align: center;
+    position: relative;
+    left: 0;
+    
+}
+div.line {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-bottom: #f4f4f4 1px solid;
+}

@@ -1,0 +1,77 @@
+
+a.function {
+    color: rgba(66, 66, 66, 0.952);
+}
+
+div.building {
+    border: 1px solid black;
+    display: flex;
+    height: 660px;
+
+    box-sizing: inherit;
+
+}
+h1 {
+    margin-top: 4%;
+    text-align: center;
+}
+div.input {
+    width: 300px;
+    display: flex;
+    border: black 1px solid;
+}
+div.container {
+    display: flex;
+}
+
+p.p {
+    width: 13%;
+}
+button.del {
+    width: 13%;
+    font-weight: 600;
+    
+}
+input  {
+    width: 65%;
+}
+div.color {
+    width: 10%;
+}
+div.color div {
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+div.container h2 {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+
+div.regules {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 14pt;
+    margin-left: 5%;
+    padding-top: 1%;
+    height: 660px;
+    word-wrap: break-word;
+    overflow-x:hidden;
+
+}
+div.scale {
+    text-align: center;
+}
+div.scale button{
+    width: 40px;
+    height: 40px;
+    font-size: 18pt;
+}
+div.color0 {background-color: green;}
+div.color1 {background-color: yellow;}
+div.color2 {background-color: rgb(255, 62, 165);}
+div.color3 {background-color: tomato;}
+div.color4 {background-color: blue;}

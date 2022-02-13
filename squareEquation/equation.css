@@ -1,0 +1,57 @@
+a.squareEquation {
+    color: rgba(66, 66, 66, 0.952);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+div.rule {
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+div.line1 {
+    width: 65%;
+    border-bottom: black solid 1px;
+    margin: 0 auto;
+    margin-top: -1%;
+}
+div.equation {
+    text-align: center;
+}
+div.inputs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+div.answer {
+    display: none;
+    font-size: 1.4em;
+    text-align: center;
+}
+button.solve {
+    text-align: center;
+    background-color: rgb(47, 72, 82);
+    margin: 0 auto;
+    margin-top: 2%;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.4s;
+}
+button.solve:hover { background: rgba(47, 72, 82, 0.8); }
+
+p.answer {
+    text-align: center;
+}
+

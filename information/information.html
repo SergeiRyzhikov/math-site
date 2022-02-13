@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Справочник</title>
+    <link rel="stylesheet" href="./information.css">
+    <link rel="stylesheet" href="../all.css">
+</head>
+<body>
+    <nav>
+        <a class="home"><img src="https://cdn-icons-png.flaticon.com/512/158/158776.png" class="homeIcone"></a>
+        <a class="function">Построение функции</a>
+        <a class="squareEquation">Решение квадратных уравнений</a>
+        <a class="information">Полезный справочник</a>
+    </nav>
+    <div class="content">
+        <h1>Полезная информация для подготовки к ЕГЭ</h1>
+        <div class="navigation">
+            <h5 style="text-align: center;">Навигация</h5>
+            <ul>
+            <li><a href="#anchor1">1. Степени</a></li>
+            <li><a href="#anchor2">2. Корни</a></li>
+            <li><a href="#anchor3">3. Логарифмы</a></li>
+            <li><a href="#anchor4">4. Планиметрия</a></li>
+            <li><a href="#anchor5">5. Стереометрия</a></li>
+            <li><a href="#anchor6">6. Функции и производная</a></li>
+            </ul>
+        </div>
+        <div class="mainInformation">
+
+            <div class="degree"  style="text-align: center;">               
+                <h2 id="anchor1">Степени</h2>
+                <hr style="width: 20%;">
+                <div class="definition">
+                    <h3>Определение</h3>
+                    <p>Степенью числа а с натуральным показателем n, большим 1, называется произведение n множителей, каждый из которых равен а.</p>
+                    <img src="https://math-prosto.ru/images/stepeni/n_multiplies.png" style="max-width: 100%;height: auto;">
+                </div>
+                
+                <h3>Основные свойтсва степеней</h3>
+                <img src="https://мояматематика.рф/public/1270.jpg" alt="Свойства степеней">
+            </div>
+
+            <div class="roots"  style="text-align: center;">
+                <h2 id="anchor2">Корни</h2>
+                <hr style="width: 20%;">
+                <div class="definition">
+                    <h3>Определение</h3>
+                    <p>Корень n-й степени из числа a определяется как такое число b, что b <sup>n</sup> = a. Здесь n — натуральное число, называемое показателем корня (или степенью корня); как правило, оно больше или равно 2, потому что случай n=1 не представляет интереса.</p>
+                    <p> Обозначение: <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/faa9d021810625038d355d8d04e49225a5f25121" style="width: 6%;"> символ (знак корня) в правой части называется радикалом. Число a (подкоренное выражение) чаще всего вещественное или комплексное</p>
+                </div>
+                <h3>Основные свойтсва корней</h3>
+                <img src="https://textarchive.ru/images/1014/2027477/m594e6996.png" alt="Свойства кореней">
+            </div>
+
+            <div class="logarithms"  style="text-align: center;">
+                <h2 id="anchor3">Логарифмы</h2>
+                <hr style="width: 20%;">
+                <div class="definition">
+                    <h3>Определение</h3>
+                    <p>Логарифм числа b по основанию a, где a>0, a≠1 и b>0 – это показатель степени, в который нужно возвести число a, чтобы в результате получить b.</p>
+                    <p>Обозначение логарифма: логарифм числа b по основанию a принято обозначать как log<sub>a</sub>b.</p>
+                    <img src="data:image/png;base64,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" style="max-width: 100%;height: auto;">
+                </div>
+                <h3>Основные свойтсва логарифмов</h3>
+                <img src="https://novstudent.ru/wp-content/uploads/2019/11/Svoystvo-logarifmov.jpg" style="max-width: 100%;height: auto;" alt="Свойства логарифмов">
+            </div>
+
+            <div class="planimetry" style="text-align: center;">
+                <h2 id="anchor4">Планиметрия</h2>
+                <hr style="width: 20%;">
+                <img src="https://shkolkovo.net/media/upload/task_images/1475/A_16_1_5.png" alt="">
+                <p>В этом файле, вся нужная информация по планиметрии, которая поможет выполнить №3и №16 задания по ЕГЭ</p>
+                <a href="https://4ege.ru/up/a/Planimetriya-spr.pdf">Планиметрия.pdf</a>
+            </div>
+            
+            <div class="sterometry" style="text-align: center;">
+                <h2 id="anchor5">Стерометрия</h2>
+                <hr style="width: 20%;">
+                <img src="https://easy-physic.ru/wp-content/uploads/2017/05/%D0%A1%D1%82%D0%B5%D1%80%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F1_7.png" alt="" style="max-width: 20%;height: auto;">
+                <p>Вся нужная информация по стереомтерии, которая поможет выполнить №5 и №13 задания по ЕГЭ</p>
+                <a href="https://mathus.ru/math/sm.pdf">Стереометрия.pdf</a>
+            </div>
+
+            <div class="functionDerivative" style="text-align: center;">
+                <h2 id="anchor6">Функции и производная</h2>
+                <hr style="width: 20%;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Derivative_of_a_function.svg/200px-Derivative_of_a_function.svg.png" alt="">
+                <p>Информация о функции и производной, которая поможет выполнить №6, №9, №11 и №17 задания по ЕГЭ</p>
+                <div style="margin-top: 3%;">
+                    <p style=" font-size: 14pt;">Информация о функции:  <a href="https://down.ctege.info/ege/obshee/matem/matem-spravochnik-ege/matem-spravochnik-ege-03.pdf"> Функция.pdf</a></p>
+                    <p style=" font-size: 14pt;">Информация о производной:  <a href="https://drive.google.com/file/d/1M1dSPSB70jJaAaGJ8LtHdF3R2VX88UYW/view"> Производная.pdf</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>До егэ 2022 по математике осталось: <p class="time"></p></p>
+        <div class="line"></div>
+        <p class="me">website made by Ryzhikov Sergei</p>
+    </footer>
+    <script src='../main.js'></script>
+    <script src='./information.js'></script>
+</body>
+</html>
