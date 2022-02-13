@@ -92,5 +92,7 @@ function changeTime () {
   ${changeWord(differnceMin, 'минут')}
   ${changeWord(restSec, 'секунд')}`
 }
+// function onload
 onload = changeTime()
+// every 1 second change time
 setInterval(changeTime, 1000)
