@@ -15,21 +15,21 @@ window.onresize = function( event ) {
 
 aFunction.addEventListener('click', (event) => {
     event.preventDefault()
-    document.location.href = '/function/function.html'
+    document.location.href = 'https://sergeiryzhikov.github.io/math-site/function/function.html'
 })
 
 aHome.addEventListener('click', (event) => {
     event.preventDefault()
-    document.location.href = '/index.html'
+    document.location.href = 'https://sergeiryzhikov.github.io/math-site/'
 })
 aSquareEquation.addEventListener('click', (event) => {
   event.preventDefault()
-  document.location.href = '/squareEquation/equation.html'
+  document.location.href = 'https://sergeiryzhikov.github.io/math-site/squareEquation/equation.html'
 })
 
 aInformation.addEventListener('click', (event) => {
   event.preventDefault()
-  document.location.href = '/information/information.html'
+  document.location.href = 'https://sergeiryzhikov.github.io/math-site/information/information.html'
 })
 
 // nav scroll

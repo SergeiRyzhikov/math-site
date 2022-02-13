@@ -4,17 +4,17 @@ const aInformation2 = document.querySelector('a.information2')
 
 aFunction2.addEventListener('click', (event) => {
     event.preventDefault()
-    document.location.href = '/function/function.html'
+    document.location.href = 'https://sergeiryzhikov.github.io/math-site/function/function.html'
 })
 
 aSquareEquation2.addEventListener('click', (event) => {
     event.preventDefault()
-    document.location.href = '/squareEquation/equation.html'
+    document.location.href = 'https://sergeiryzhikov.github.io/math-site/squareEquation/equation.html'
 })
 
 aInformation2.addEventListener('click', (event) => {
     event.preventDefault()
-    document.location.href = '/information/information.html'
+    document.location.href = 'https://sergeiryzhikov.github.io/math-site/information/information.html'
 })
 
 // change time for ege
